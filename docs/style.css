@@ -1,0 +1,23 @@
+body::-webkit-scrollbar{
+  display: none;
+}
+div.thumbnail img {
+  max-width: 50%;
+  height: auto
+}
+
+.team-mem{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.about-con{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about-word > *{
+  margin-bottom: 3rem;
+}
